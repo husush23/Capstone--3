@@ -1,24 +1,27 @@
 /*eslint-disable*/
 import React from 'react';
-import {useLocation} from 'react-router-dom';
+import {useLocation, useNavigate} from 'react-router-dom';
 
 function Details() {
+  const navigate = useNavigate();
   const location = useLocation();
   const {ask, bid, open, low, currency} = location.state;
 
-  const close = () => {
-    // Implement close functionality here
+  const goBack = () => {
+    navigate(-1); // Navigates back to the previous page
   };
 
   return (
     <div className='popup'>
       <div className='popup-content'>
         <h3>{currency}</h3>
-        <p>Ask: {ask}</p>
-        <p>Bid: {bid}</p>
-        <p>Open: {open}</p>
-        <p>Low: {low}</p>
-        <button onClick={close}>Close</button>
+        <p>Ask:&nbsp; {ask}</p>
+        <p>Bid:&nbsp; {bid}</p>
+        <p>Open:&nbsp; {open}</p>
+        <p>Low: &nbsp;{low}</p>
+        <span className='back' onClick={goBack}>
+          &#8592;
+        </span>
       </div>
     </div>
   );

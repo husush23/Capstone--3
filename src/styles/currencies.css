@@ -30,6 +30,11 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .card {
   margin: 10px;
   display: block;
@@ -38,6 +43,10 @@
   background-color: #2856ab;
   width: 150px;
   height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .card .values {
   display: flex;
@@ -51,23 +60,37 @@
 }
 .popup {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 70px;
 }
 .popup-content {
   width: 300px;
   position: absolute;
-  top: 50%;
+  top: 30%;
   background-color: #5c84cf;
   width: 500px;
   height: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   border: 1px solid #ddd;
   border-radius: 8px;
+  position: relative;
+  padding-left: 70px;
+}
+.back {
+  position: absolute;
+  top: -8px;
+  left: 18px;
+  z-index: 1;
+  width: 20px;
+  font-size: 44px;
+  cursor: pointer;
+}
+.popup-content p:nth-child(odd) {
+  background-color: #40619e;
 }
