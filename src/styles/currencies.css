@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.form {
+  margin: 50px auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form > input {
+  width: 50%;
+  height: 50px;
+  text-indent: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 25px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
+  display: block;
+  box-shadow: rgba(23, 23, 201, 0.25) 0 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+  background-color: #2856ab;
+  width: 150px;
+  height: 100px;
+}
+.card .values {
+  display: flex;
+  flex-direction: column;
+}
+.sell span {
+  color: rgb(244, 31, 59);
+}
+.buy span {
+  color: rgb(47, 235, 47);
+}
+.popup {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup-content {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  background-color: #5c84cf;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
