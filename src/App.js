@@ -6,6 +6,7 @@ import {fetchCrypto} from './redux/features/moneySlice';
 import Navigation from './components/Navigation';
 import {useDispatch, useSelector} from 'react-redux';
 import {useEffect} from 'react';
+import './app.css';
 
 function App() {
   const dispatch = useDispatch();
@@ -16,7 +17,6 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
-        <Navigation />
         <Routes>
           <Route path='/' element={<Currencies />} />
           <Route path='/details' element={<Details />} />
