@@ -12,7 +12,7 @@ function Currency(props) {
   };
 
   return (
-    <>
+    <div className='wrapper'>
       <div className='card' onClick={handleClick}>
         <h3>{currency}</h3>
         <div className='values'>
@@ -26,7 +26,7 @@ function Currency(props) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
