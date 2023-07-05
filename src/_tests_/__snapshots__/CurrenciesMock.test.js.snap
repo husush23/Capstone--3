@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`currencies renders Navbar correctly 1`] = `
+<DocumentFragment>
+  <nav>
+    <div />
+    <div
+      class="p-2"
+    >
+      <span>
+        <i
+          class="fa-solid fa-microphone-lines"
+        />
+      </span>
+      <span>
+        <i
+          class="fa-solid fa-gear"
+        />
+      </span>
+    </div>
+  </nav>
+  <div
+    class="container"
+  >
+    <div
+      class="form"
+    >
+      <input
+        type="text"
+      />
+    </div>
+    <div
+      class="cards"
+    >
+      <div
+        class="wrapper"
+      >
+        <div
+          class="card"
+        >
+          <h3>
+            Pair name
+          </h3>
+          <div
+            class="values"
+          >
+            <div
+              class="buy"
+            >
+              <span>
+                ↗
+              </span>
+                
+              <span>
+                34.000000
+              </span>
+            </div>
+            <div
+              class="sell"
+            >
+              <span>
+                ↘
+              </span>
+                
+              <span>
+                35.000000
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

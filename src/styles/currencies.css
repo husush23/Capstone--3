@@ -27,6 +27,9 @@
   border: none;
   font-size: 25px;
 }
+.form > input:active {
+  border: none;
+}
 
 .cards {
   display: flex;
@@ -41,10 +44,9 @@
   justify-content: center;
 }
 
-.card {
+button.card {
   margin: 10px;
-  box-shadow:
-    rgba(23, 23, 201, 0.25) 0 2px 5px -1px,
+  box-shadow: rgba(23, 23, 201, 0.25) 0 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
   background-color: #2856ab;
   width: 150px;
@@ -53,6 +55,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: none;
+}
+.card > h3 {
+  color: #fff;
 }
 
 .card .values {
@@ -88,6 +94,7 @@
   border-radius: 8px;
   position: relative;
   padding-left: 70px;
+  padding-right: 70px;
 }
 
 .back {
