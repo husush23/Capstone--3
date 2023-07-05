@@ -1,10 +1,9 @@
-/*eslint-disable*/
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { useEffect } from 'react';
 import Currencies from './components/Currencies';
 import Details from './components/Details';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import {fetchCrypto} from './redux/features/moneySlice';
-import {useDispatch} from 'react-redux';
-import {useEffect} from 'react';
+import { fetchCrypto } from './redux/features/moneySlice';
 
 function App() {
   const dispatch = useDispatch();
@@ -13,11 +12,11 @@ function App() {
     dispatch(fetchCrypto());
   }, [dispatch]);
   return (
-    <div className='App'>
+    <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Currencies />} />
-          <Route path='/details' element={<Details />} />
+          <Route path="/" element={<Currencies />} />
+          <Route path="/details" element={<Details />} />
         </Routes>
       </BrowserRouter>
     </div>
