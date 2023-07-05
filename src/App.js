@@ -5,7 +5,6 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import {fetchCrypto} from './redux/features/moneySlice';
 import {useDispatch} from 'react-redux';
 import {useEffect} from 'react';
-import './app.css';
 
 function App() {
   const dispatch = useDispatch();
