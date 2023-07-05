@@ -77,6 +77,13 @@ button.card {
   color: rgb(47, 235, 47);
 }
 
+.open-details {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 27px;
+}
+
 .popup {
   position: relative;
   display: flex;
@@ -108,6 +115,9 @@ button.card {
   width: 20px;
   font-size: 44px;
   cursor: pointer;
+  background: none;
+  border: none;
+  color: #fff;
 }
 
 .popup-content p:nth-child(odd) {

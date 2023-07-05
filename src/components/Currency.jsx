@@ -14,7 +14,7 @@ function Currency(props) {
       open,
       low,
       currency,
-    }; // Pass the data as props
+    };
     navigate('/details', { state: detailsProps });
   };
 
@@ -35,6 +35,7 @@ function Currency(props) {
             <span>{parseFloat(open).toFixed(6)}</span>
           </div>
         </div>
+        <span className="open-details">&#8594;</span>
       </button>
     </div>
   );
