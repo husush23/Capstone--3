@@ -28,10 +28,6 @@
   font-size: 25px;
 }
 
-.form > input:active {
-  border: none;
-}
-
 .cards {
   display: flex;
   align-items: center;
