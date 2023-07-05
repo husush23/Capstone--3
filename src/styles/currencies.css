@@ -28,10 +28,6 @@
   font-size: 25px;
 }
 
-.form > input:active {
-  border: none;
-}
-
 .cards {
   display: flex;
   align-items: center;
@@ -108,6 +104,9 @@ button.card {
   width: 20px;
   font-size: 44px;
   cursor: pointer;
+  background: none;
+  border: none;
+  color: #fff;
 }
 
 .popup-content p:nth-child(odd) {
