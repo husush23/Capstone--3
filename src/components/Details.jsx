@@ -32,7 +32,7 @@ function Details() {
           Low: &nbsp;
           {low}
         </p>
-        <button onClick={goBack} type="submit">
+        <button onClick={goBack} type="submit" className="back">
           &#8592;
         </button>
       </div>
