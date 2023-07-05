@@ -98,6 +98,9 @@
   width: 20px;
   font-size: 44px;
   cursor: pointer;
+  background: none;
+  border: none;
+  color: #fff;
 }
 
 .popup-content p:nth-child(odd) {

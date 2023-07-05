@@ -15,11 +15,31 @@ function Details() {
     <div className='popup'>
       <div className='popup-content'>
         <h3>{currency}</h3>
+
         <p>Ask:&nbsp; {ask}</p>
         <p>Bid:&nbsp; {bid}</p>
         <p>Open:&nbsp; {open}</p>
         <p>Low: &nbsp;{low}</p>
         <span className='back' onClick={goBack}>
+
+        <p>
+          Ask:&nbsp;
+          {ask}
+        </p>
+        <p>
+          Bid:&nbsp;
+          {bid}
+        </p>
+        <p>
+          Open:&nbsp;
+          {open}
+        </p>
+        <p>
+          Low: &nbsp;
+          {low}
+        </p>
+        <button onClick={goBack} type="submit" className="back">
+
           &#8592;
         </span>
       </div>
