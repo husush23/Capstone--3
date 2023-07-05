@@ -43,7 +43,8 @@
 
 button.card {
   margin: 10px;
-  box-shadow: rgba(23, 23, 201, 0.25) 0 2px 5px -1px,
+  box-shadow:
+    rgba(23, 23, 201, 0.25) 0 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
   background-color: #2856ab;
   width: 150px;
