@@ -3,7 +3,7 @@ import Currencies from './components/Currencies';
 import Details from './components/Details';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import {fetchCrypto} from './redux/features/moneySlice';
-import {useDispatch, useSelector} from 'react-redux';
+import {useDispatch} from 'react-redux';
 import {useEffect} from 'react';
 import './app.css';
 

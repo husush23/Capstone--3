@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders Navbar correctly 1`] = `
+<DocumentFragment>
+  <nav>
+    <div />
+    <div
+      class="p-2"
+    >
+      <span>
+        <i
+          class="fa-solid fa-microphone-lines"
+        />
+      </span>
+      <span>
+        <i
+          class="fa-solid fa-gear"
+        />
+      </span>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
