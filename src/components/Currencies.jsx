@@ -10,7 +10,6 @@ function Currencies() {
   const handleSearch = (e) => setSearchQuery(e.target.value);
 
   const filteredList = currencyList.filter((currency) => currency.ticker.toLowerCase().includes(searchQuery.toLowerCase()));
-  // const bgColors = ['#3165c7', ];
   return (
     <>
       <Navbar />
