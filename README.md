@@ -192,9 +192,7 @@ If you encounter any issues or have questions about the project, feel free to re
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to express my heartfelt gratitude to all the contributors who have helped shape and improve this project. Your dedication, insights, and efforts have been invaluable in making this project what it is today. Thank you for your contributions and for being part of this collaborative journey.
-
-Please note that the list of contributors may be available in the project's version control system, such as Git, where you can view the commit history and see all the individuals who have made contributions over time. Encouraging users to check the project's repository or documentation for a comprehensive list of contributors is a good practice.
+I would like to express my heartfelt appreciation to Nelson Sakwa for their incredible design work that served as a significant inspiration for this project. Their exceptional talent and creativity have been instrumental in shaping the visual aesthetics and user experience of this application. I am grateful for their innovative design concepts, attention to detail, and the artistic touch they have brought to the digital realm. The captivating and intuitive design elements developed by Nelson Sakwa have greatly enhanced the overall look and feel of this project.
 
 <!-- LICENSE -->
 
