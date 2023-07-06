@@ -10,6 +10,7 @@ function Currencies() {
   const handleSearch = (e) => setSearchQuery(e.target.value);
 
   const filteredList = currencyList.filter((currency) => currency.ticker.toLowerCase().includes(searchQuery.toLowerCase()));
+
   return (
     <>
       <Navbar />
@@ -23,19 +24,26 @@ function Currencies() {
           />
         </div>
         <div className="cards">
-          {filteredList.map((currency, index) => (
-            <Currency
-              currency={currency.ticker}
-              bid={currency.bid}
-              ask={currency.ask}
-              open={currency.open}
-              low={currency.low}
-              key={currency.ticker}
-              style={{
-                backgroundColor: index % 2 === 0 ? '#3165c7' : '#4369b2',
-              }}
-            />
-          ))}
+          {filteredList.map((currency, index) => {
+            let backgroundColor = '#3165c7';
+
+            if (index > 0) {
+              const groupIndex = Math.floor((index - 1) / 2);
+              backgroundColor = groupIndex % 2 === 0 ? '#4679d8' : '#3165c7';
+            }
+
+            return (
+              <Currency
+                currency={currency.ticker}
+                bid={currency.bid}
+                ask={currency.ask}
+                open={currency.open}
+                low={currency.low}
+                key={currency.ticker}
+                style={{ backgroundColor }}
+              />
+            );
+          })}
         </div>
       </div>
     </>

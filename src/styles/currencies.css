@@ -57,6 +57,11 @@ button.card {
   border: none;
 }
 
+.wrapper:nth-child(4n + 2),
+.wrapper:nth-child(4n + 3) {
+  background-color: #4679d8;
+}
+
 .card > h3 {
   color: #fff;
 }
