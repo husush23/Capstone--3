@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Currency(props) {
   const {
-    ask, bid, open, low, currency,
+    ask, bid, open, low, currency, style,
   } = props;
   const navigate = useNavigate();
 
@@ -20,7 +20,12 @@ function Currency(props) {
 
   return (
     <div className="wrapper">
-      <button className="card" onClick={handleClick} type="submit">
+      <button
+        className="card"
+        onClick={handleClick}
+        type="submit"
+        style={style}
+      >
         <h3>{currency}</h3>
         <div className="values">
           <div className="buy">
@@ -47,6 +52,7 @@ Currency.propTypes = {
   open: PropTypes.string.isRequired,
   low: PropTypes.string.isRequired,
   currency: PropTypes.string.isRequired,
+  style: PropTypes.string.isRequired,
 };
 
 export default Currency;
