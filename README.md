@@ -74,7 +74,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Not yet !](url)
+[Forex exchange rates🔥 !](https://forex-exchange-viqx.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
