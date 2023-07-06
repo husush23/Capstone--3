@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form {
+  margin: 50px auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form > input {
+  width: 50%;
+  height: 50px;
+  text-indent: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 25px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.card {
+  /* margin: 10px; */
+  box-shadow:
+    rgba(23, 23, 201, 0.25) 0 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+
+  /* background-color: #3165c7; */
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.wrapper:nth-child(4n + 2),
+.wrapper:nth-child(4n + 3) {
+  background-color: #4679d8;
+}
+
+.card > h3 {
+  color: #fff;
+}
+
+.card .values {
+  display: flex;
+  flex-direction: column;
+}
+
+.sell span {
+  color: rgb(244, 31, 59);
+}
+
+.buy span {
+  color: rgb(47, 235, 47);
+}
+
+.open-details {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 27px;
+}
+
+.popup {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px;
+}
+
+.popup-content {
+  top: 30%;
+  background-color: #5c84cf;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: relative;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.back {
+  position: absolute;
+  top: -8px;
+  left: 18px;
+  z-index: 1;
+  width: 20px;
+  font-size: 44px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.popup-content p:nth-child(odd) {
+  background-color: #40619e;
+}
