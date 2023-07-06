@@ -76,6 +76,8 @@
 
 [Forex exchange rates🔥 !](https://forex-exchange-viqx.onrender.com/)
 
+[You can also check here the persentation video ](https://www.loom.com/share/b29829f6fa254d5894319f6239fec90b)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
